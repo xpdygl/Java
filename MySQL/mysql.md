@@ -81,3 +81,26 @@ select distinct department_id from employees;
 select concat('a','b','c') as 结果
 ```
 
+## 插入语句
+
+插入指定列: insert into 表名(列名,列名,...)  values(值,值,...);
+插入所有列: insert into 表名 values(值,值,...);
+
+
+
+## 更新语句
+
+- 语法:  `update  表名 set 字段名=值,字段名=值,... where 条件; `
+
+
+
+
+
+## 6.3 删除记录
+
++ 语法
+
+  + 方式一:  `delete from 表名 where 条件;`
+  + 方式二:  `truncate table 表名;`
+
+  
