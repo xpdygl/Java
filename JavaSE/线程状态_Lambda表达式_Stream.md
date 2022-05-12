@@ -233,7 +233,7 @@ Stream流不会修改数据源
 
     ```java
     /**
-     * @Author PengZhiLin
+     * @Author xuhui
      * @Date 2021/7/1 15:00
      */
     public class Test1_根据Collection获取流 {
@@ -264,7 +264,7 @@ Stream流不会修改数据源
 
       ```java
       /**
-       * @Author PengZhiLin
+       * @Author xuhui
        * @Date 2021/7/1 15:04
        */
       public class Test2_根据Mao获取流 {
@@ -336,7 +336,7 @@ Stream流不会修改数据源
 
       ```java
       /**
-       * @Author PengZhiLin
+       * @Author xuhui
        * @Date 2021/7/1 16:05
        */
       public class Test {

@@ -395,7 +395,7 @@ commons-io是apache开源基金组织提供的一组有关IO操作的类库，�
 
 ~~~java
 /**
- * @Author PengZhiLin
+ * @Author xuhui
  * @Date 2021/7/8 16:19
  */
 public class Test1_IOUtils {
@@ -428,7 +428,7 @@ import org.apache.commons.io.FileUtils;
 import java.io.File;
 
 /**
- * @Author PengZhiLin
+ * @Author xuhui
  * @Date 2021/7/8 16:23
  */
 public class Test2_FileUtils {

@@ -110,7 +110,7 @@ response.setContentType("text/html;charset=utf-8");
 ```java
 
 /**
- * @Author：pengzhilin
+ * @Author：xuhui
  * @Date: 2021/5/6 10:07
  */
 public class CookieUtils {
@@ -282,7 +282,7 @@ public class Servletdemo13Second extends HttpServlet {
 ```java
 
 /**
- * @Author：pengzhilin
+ * @Author：xuhui
  * @Date: 2021/5/6 15:02
  */
 @WebServlet("/ServletDemo21")
