@@ -212,7 +212,7 @@ __必须重写 hashCode 和 equals 方法。__
 map的例子如下
 
 ```java
-package com.itheima.demo12_TreeMap集合;
+package com.huixu.demo12_TreeMap集合;
 
 import java.util.Comparator;
 import java.util.TreeMap;

@@ -146,9 +146,9 @@ public class CookieUtils {
 
 
 ```java
-package com.ithaima.demo5_记录上一次访问时间案例;
+package com.huixu.demo5_记录上一次访问时间案例;
 
-import com.ithaima.utils.CookieUtils;
+import com.huixu.utils.CookieUtils;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;

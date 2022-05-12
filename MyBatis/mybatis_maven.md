@@ -171,7 +171,7 @@ maven的结构
 
 <mappers>
     <!--引入映射文件; resource属性: 映射文件的路径-->
-    <mapper resource="com/itheima/dao/UserDao.xml"/>
+    <mapper resource="com/huixu/dao/UserDao.xml"/>
 </mappers>
 </configuration>
 ```

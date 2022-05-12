@@ -25,7 +25,7 @@ public interface UserDao {
 在 UserDao.xml 文件中加入新增配置
 
 ```java
-    <insert id="save" parameterType="com.itheima.bean.User">
+    <insert id="save" parameterType="com.huixu.bean.User">
         INSERT INTO t_user(username,sex,birthday,address) VALUES (#{username},#{sex},#{birthday},#{address})
     </insert>
 
@@ -88,7 +88,7 @@ dao语句需要有返回值
 ​	直接写当前pojo类的全限定名 eg: 返回User
 
 ```xml
-<select id="findByUid" parameterType="int" resultType="com.itheima.bean.User">
+<select id="findByUid" parameterType="int" resultType="com.huixu.bean.User">
         select * from t_user where uid = #{uid}
 </select>
 ```
@@ -100,7 +100,7 @@ dao语句需要有返回值
 ​	直接写当前pojo类的全限定名 eg: 返回 List<User> list;
 
 ```xml
-<select id="findAll" resultType="com.itheima.bean.User">
+<select id="findAll" resultType="com.huixu.bean.User">
         select * from t_user
 </select>
 ```

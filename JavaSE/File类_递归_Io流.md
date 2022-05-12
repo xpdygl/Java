@@ -3,8 +3,8 @@
 ### 构造方法
 
 ```java
-				File f1 = new File("G:\\szitheima117\\day10\\aaa\\a.txt");// 表示文件路径
-        File f2 = new File("G:\\szitheima117\\day10\\aaa");// 表示文件夹路径
+				File f1 = new File("G:\\szhuixu117\\day10\\aaa\\a.txt");// 表示文件路径
+        File f2 = new File("G:\\szhuixu117\\day10\\aaa");// 表示文件夹路径
         System.out.println("f1:" + f1);
         System.out.println("f2:" + f2);
 ```
@@ -323,7 +323,7 @@ public class Test5_写指定范围的字符串 {
         FileWriter fw = new FileWriter("day10\\eee\\g.txt");
 
         // 2.写指定范围的字符串---->黑马程序员
-        String str = "itheima黑马程序员itcast";
+        String str = "huixu黑马程序员itcast";
         fw.write(str,7,5);
 
 

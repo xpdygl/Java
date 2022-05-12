@@ -80,7 +80,7 @@ eg:比如用户支付时需要修改订单状态，同时用户要查询订单�
 
 链路模式中，是对不同来源的两个链路做监控。但是sentinel默认会给进入SpringMVC的所有请求设置同一个root资源，会导致链路模式失效。
 
-我们需要**关闭这种对SpringMVC的资源聚合**，修改itheima-order服务的application.yml文件：
+我们需要**关闭这种对SpringMVC的资源聚合**，修改huixu-order服务的application.yml文件：
 
 ```yaml
 spring:
@@ -197,7 +197,7 @@ QPS非常平滑，一致保持在5，但是超出的请求没有被拒绝，而�
 因此，我们需要自定义这个接口的实现，让**不同的请求，返回不同的origin**。
 
 ```java'
-package com.itheima.sentinel;
+package com.huixu.sentinel;
 
 import com.alibaba.csp.sentinel.adapter.spring.webmvc.callback.RequestOriginParser;
 import org.springframework.stereotype.Component;
@@ -249,7 +249,7 @@ spring:
         namespace: devnamespace #环境隔离 命名空间ID
     gateway:
       default-filters: #全局过滤器配置 针对所有的微服务
-        - AddRequestHeader=Heima,shenzhen119 nb!!!
+        - AddRequestHeader=huixu,shenzhen119 nb!!!
         - AddRequestHeader=origin,gateway
       routes:
        # ...略

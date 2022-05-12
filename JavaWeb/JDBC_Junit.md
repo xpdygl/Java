@@ -94,9 +94,9 @@ System.out.println("受影响的行数:" + rows);
 ### PreparedStatement完成CRUD
 
 ```java
-package com.itheima.demo5_PreparedStatement完成CRUD;
+package com.huixu.demo5_PreparedStatement完成CRUD;
 
-import com.itheima.bean.User;
+import com.huixu.bean.User;
 import org.junit.Test;
 
 import java.sql.Connection;

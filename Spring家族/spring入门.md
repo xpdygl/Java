@@ -29,7 +29,7 @@
 class是写我们要创建的对象的路径
 
 ```xml
-<bean id="userDao" class="com.itheima.dao.impl.UserDaoImpl"></bean>
+<bean id="userDao" class="com.huixu.dao.impl.UserDaoImpl"></bean>
 ```
 
 ##### .创建Spring核心配置文件，并配置`UserDaoImpl`
@@ -61,7 +61,7 @@ class是写我们要创建的对象的路径
                 id: 唯一标识，不能出现重复！
                 class: 托管类的全路径
      -->
-    <bean id="ud"  class="com.itheima.dao.impl.UserDaoImpl" />
+    <bean id="ud"  class="com.huixu.dao.impl.UserDaoImpl" />
 </beans>
 ```
 
@@ -84,10 +84,10 @@ ref只能是对象
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <!--创建UserDaoImpl对象-->
-    <bean id="ud" class="com.itheima.dao.impl.UserDaoImpl"/>
+    <bean id="ud" class="com.huixu.dao.impl.UserDaoImpl"/>
 
     <!--创建UserServiceImpl对象-->
-    <bean id="us1" class="com.itheima.service.impl.UserServiceImpl">
+    <bean id="us1" class="com.huixu.service.impl.UserServiceImpl">
         <!--注入简单类型数据|注入不是IOC容器中管理的数据  使用value属性-->
         <!--
             property：为当前对象的属性赋值 使用的是set方法注入  对应的属性一定要提供set方法
@@ -117,7 +117,7 @@ ref只能是对象
 
   可以现在applicationContext07-dao.xml中创建一个userdao对象
 
-  \<bean id="ud" class="com.itheima.dao.impl.UserDaoImpl"/>
+  \<bean id="ud" class="com.huixu.dao.impl.UserDaoImpl"/>
 
   
 
@@ -129,7 +129,7 @@ ref只能是对象
 
   
 
-  \<bean id="us7" class="com.itheima.service.impl.UserServiceImpl07">
+  \<bean id="us7" class="com.huixu.service.impl.UserServiceImpl07">
           \<property name="userDao" ref="ud"/>    ps：name为dao中的userDao ref 为导入进来的ud
       \</bean>
 

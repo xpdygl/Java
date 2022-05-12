@@ -9,7 +9,7 @@ jdk7之前的处理异常，将流定义在try外面，使流全局可以使用
 第二个要释放的资源要写在第二个finally里面 。保证一定会被执行到
 
 ```java
-package com.itheima;
+package com.huixu;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
@@ -69,7 +69,7 @@ jdk7之后的异常处理，将异常都try catch住，不抛出，同时try.. w
 将定义流的代码放在try(   )中的括号里面，其他的都和try...catch...finally...一样。
 
 ```java
-package com.itheima;
+package com.huixu;
 
 
 import java.io.*;
@@ -144,7 +144,7 @@ public class Test3_操作文件 {
         pro.setProperty("k5", "v5");
 
         // 3.调用store方法保存键值对到件中
-        //pro.store(new FileOutputStream("day11\\aaa\\b.properties"),"itheima");
+        //pro.store(new FileOutputStream("day11\\aaa\\b.properties"),"huixu");
         pro.store(new FileWriter("day11\\aaa\\b.properties"),"itcast");
     }
 }

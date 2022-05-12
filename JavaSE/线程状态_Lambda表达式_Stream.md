@@ -240,12 +240,12 @@ Stream流不会修改数据源
         public static void main(String[] args) {
             // 创建Collection集合,限制集合元素类型为String
             Collection<String> col = new ArrayList<>();
-            col.add("itheima");
+            col.add("huixu");
             col.add("itcast");
             col.add("java");
     
             // 根据单列集合获取流
-            Stream<String> stream = col.stream();// itheima,itcast,java
+            Stream<String> stream = col.stream();// huixu,itcast,java
     
         }
     }
