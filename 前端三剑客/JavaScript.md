@@ -10,11 +10,7 @@ var test2 = "打到"
 var flag = true;
 ```
 
-也可以用let
-
-不过let的作用域只在自己的大括号内
-
-出了大括号就不生效
+ECMAScript 6 新增了 let 关键字来定义变量。它的用法类似于 var，但是所声明的变量，只在 let 关键字所在的代码块内有效，且不允许重复声明
 
 ```javascript
 {
@@ -23,6 +19,8 @@ var flag = true;
 }
 comsole.log(num2)
 ```
+
+ECMAScript 6 新增了 const关键字，用来声明一个只读的常量。一旦声明，常量的值就不能改变。 
 
 ### 常用方法
 
